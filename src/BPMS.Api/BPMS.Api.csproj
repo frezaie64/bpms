@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BPMS.Shared\BPMS.Shared.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.Identity\BPMS.Modules.Identity.csproj" />
+<ProjectReference Include="..\BPMS.Modules.Tenancy\BPMS.Modules.Tenancy.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.Forms\BPMS.Modules.Forms.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.WorkflowDefinitions\BPMS.Modules.WorkflowDefinitions.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.WorkflowRuntime\BPMS.Modules.WorkflowRuntime.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.FileManagement\BPMS.Modules.FileManagement.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.Reports\BPMS.Modules.Reports.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.FormGenerator\BPMS.Modules.FormGenerator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.3.1" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="10.0.10" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
+
+</Project>

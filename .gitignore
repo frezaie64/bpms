@@ -1,0 +1,72 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.csproj.user
+
+## NuGet
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nupkg
+nuget.exe
+packages/
+
+## Visual Studio
+.vs/
+*.sln.ide/
+
+## Rider
+.idea/
+*.sln.iml
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Code coverage
+coverage/
+*.coverage
+*.coverage.xml
+
+## Secrets
+appsettings.*.local.json
+appsettings.local.json
+*.Development.json
+
+## OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+## Docker
+docker-compose.override.yml
+
+## Logs
+*.log
+nlog.config
+serilog.config
+
+## EF Core Migrations
+## (keep migrations tracked - they are code)
+
+## Node (if frontend is inside)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

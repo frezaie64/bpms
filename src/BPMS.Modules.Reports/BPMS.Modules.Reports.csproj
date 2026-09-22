@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BPMS.Shared\BPMS.Shared.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.Identity\BPMS.Modules.Identity.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.Forms\BPMS.Modules.Forms.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.WorkflowDefinitions\BPMS.Modules.WorkflowDefinitions.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.WorkflowRuntime\BPMS.Modules.WorkflowRuntime.csproj" />
+    <ProjectReference Include="..\BPMS.Modules.Notifications\BPMS.Modules.Notifications.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+    <PackageReference Include="QuestPDF" Version="2025.1.7" />
+  </ItemGroup>
+
+</Project>

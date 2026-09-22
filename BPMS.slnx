@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BPMS.Api/BPMS.Api.csproj" />
+    <Project Path="src/BPMS.Modules.Identity/BPMS.Modules.Identity.csproj" />
+    <Project Path="src/BPMS.Modules.Tenancy/BPMS.Modules.Tenancy.csproj" />
+    <Project Path="src/BPMS.Shared/BPMS.Shared.csproj" />
+    <Project Path="src/BPMS.Modules.Forms/BPMS.Modules.Forms.csproj" />
+    <Project Path="src/BPMS.Modules.WorkflowDefinitions/BPMS.Modules.WorkflowDefinitions.csproj" />
+    <Project Path="src/BPMS.Modules.WorkflowRuntime/BPMS.Modules.WorkflowRuntime.csproj" />
+    <Project Path="src/BPMS.Modules.Notifications/BPMS.Modules.Notifications.csproj" />
+    <Project Path="src/BPMS.Modules.FileManagement/BPMS.Modules.FileManagement.csproj" />
+    <Project Path="src/BPMS.Modules.Reports/BPMS.Modules.Reports.csproj" />
+  </Folder>
+</Solution>

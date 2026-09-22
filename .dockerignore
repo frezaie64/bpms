@@ -1,0 +1,39 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## NuGet
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nupkg
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Secrets
+appsettings.*.local.json
+appsettings.local.json
+*.Development.json
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+
+## Node (if frontend is inside)
+node_modules/
